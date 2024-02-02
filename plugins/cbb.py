@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>\n○  ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/killua_og'>Killua </a>\n○  ʟᴀɴɢᴜᴀɢᴇ : <code>Eng Sub & Dub</code>\n○  Main Channel : <a href=https://t.me/Anime_Alliance>Anime Alliance</a>\n○  Support Group : <a href=https://t.me/Alliance_Weebs>Anime Chats</a>\n</b>",
+            text = f"<b>1. First Join the channel \n2. Tap on Original link again or Reload ⚡️ \n3. Tap on Start and Done ✅ \nFor more help Join <a href=https://t.me/Alliance_Weebs>Support Group</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🍁 ᴄʟᴏꜱᴇ", callback_data = "close")
                     ]
                 ]
             )
